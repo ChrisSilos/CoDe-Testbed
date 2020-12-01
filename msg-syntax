@@ -1,0 +1,44 @@
+## Execution Input
+```
+{
+    "name": "Control",
+    'description':'Starts and stops the simulation. Logs all communications over "topic/*".',
+    "properties": {
+        "type":'start',
+        "startTime":"2020-07-23T19:54:00",
+        "simStartTime": '2020-05-17T19:00:00',
+        "simStopTime": "2020-05-18T04:00:00",
+        "timeScalingFactor": 900
+        
+        }
+    }
+```
+
+## Termination Input
+```
+{    
+    "name":"Control",
+    "properties": {
+        'type': "terminate"
+    }
+}
+```
+
+Wind Input
+{
+    "name":"WeatherNode IKW",
+    "time":"2020-07-15T13:30",
+    "alert": true,
+    "alertpoint": "2020-07-15T13:30 0.5",
+    "properties":{
+        "pressure":{"2020-07-15T13:30":15,},
+        "humidity":{"2020-07-15T13:30":15,},
+        "rain":{"2020-07-15T13:30":15,}
+    },
+    "location":
+    {
+        "latitude": 43.66,
+        "longitude": -84.26
+    }
+}
+
