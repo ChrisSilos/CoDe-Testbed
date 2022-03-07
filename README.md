@@ -1,5 +1,5 @@
 # CoDe-Testbed
-Personal project working under the supervision of Dr. Paul Grogan
+Personal project working under the supervision of Dr. Paul Grogan at Stevens Instiute of Technology
 
 # River Node Simulator
 This script was developed to work in conjunction with three other scripts designed by my colleagues: A script simulation a weather station, and two scripts simulating satellites.  
